@@ -9,5 +9,14 @@ public:
     string info;
     Node* leftChild;
     Node* rightChild;
-    
-}
+
+
+    //membuat constructor untuk class Node
+    Node(string i, Node* l, Node* r) {
+        //memberi nilai parameter ke variabel
+        info = i;
+        leftChild = l;
+        rightChild = r;
+    }
+
+};
